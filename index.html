@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X/Twitter</title>
+    <link rel="shortcut icon" href="//abs.twimg.com/favicons/twitter.3.ico">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body class="bg-black text-white">
+    <div class="flex container mx-auto ">
+        <div class="first w-[70%]">
+            <div class="logo invert my-3">
+                <svg viewBox="0 0 24 24" aria-hidden="true"
+                    class="m-auto w-8 ml-36 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-k200y r-1nao33i r-5sfk15 r-kzbkwu">
+                    <g>
+                        <path
+                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                        </path>
+                    </g>
+                </svg>
+            </div>
+            <div class="sidebar flex items-end flex-col my-2 pr-36">
+                <ul class="flex flex-col text-xl space-y-2 w-1/2">
+                    <li
+                        class="flex justify-start items-center w-fit gap-5 px-4 py-1 hover:bg-gray-800 hover: hover:rounded-full hover:cursor-pointer">
+                        <span class="material-symbols-outlined text-3xl">home</span><span class="hidden md:block">
+                            Home</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center w-fit gap-5 px-4 py-1 hover:bg-gray-800 hover: hover:rounded-full hover:cursor-pointer">
+                        <span class="material-symbols-outlined text-3xl">search</span><span class="hidden md:block">
+                            Explore</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center w-fit gap-5 px-4 py-1 hover:bg-gray-800 hover: hover:rounded-full hover:cursor-pointer">
+                        <span class="material-symbols-outlined text-3xl">Notifications</span
+                            class="hidden md:block"><span class="hidden md:block"> Notifications</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center w-fit gap-5 px-4 py-1 hover:bg-gray-800 hover: hover:rounded-full hover:cursor-pointer">
+                        <span class="material-symbols-outlined text-3xl">mail</span><span class="hidden md:block">
+                            Messages</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center w-fit gap-5 px-4 py-1 hover:bg-gray-800 hover: hover:rounded-full hover:cursor-pointer">
+                        <span class="material-symbols-outlined text-3xl">indeterminate_check_box</span><span
+                            class="hidden md:block"> Grok</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center w-fit gap-5 px-4 py-1 hover:bg-gray-800 hover: hover:rounded-full hover:cursor-pointer">
+                        <span class="material-symbols-outlined text-3xl">book</span><span class="hidden md:block">
+                            Lists</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center w-fit gap-5 px-4 py-1 hover:bg-gray-800 hover: hover:rounded-full hover:cursor-pointer">
+                        <span class="material-symbols-outlined text-3xl">group</span><span class="hidden md:block">
+                            Communities</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center w-fit gap-5 px-4 py-1 hover:bg-gray-800 hover: hover:rounded-full hover:cursor-pointer">
+                        <span class="material-symbols-outlined text-3xl">workspace_premium</span><span
+                            class="hidden md:block"> Premium</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center w-fit gap-5 px-4 py-1 hover:bg-gray-800 hover: hover:rounded-full hover:cursor-pointer">
+                        <span class="material-symbols-outlined text-3xl">person</span><span class="hidden md:block">
+                            Profile</span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center w-fit gap-5 px-4 py-1 hover:bg-gray-800 hover: hover:rounded-full hover:cursor-pointer">
+                        <span class="material-symbols-outlined text-3xl">more_horiz</span><span class="hidden md:block">
+                            More</span>
+                    </li>
+                    <li>
+                        <div class="button">
+                            <button
+                                class="px-16 py-3 rounded-full text-center text-xl bg-blue-600 text-white font-bold hover:bg-blue-700">Post</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div
+                class="profile flex p-3 my-6 ml-28 w-fit m-auto hover:bg-gray-800 rounded-full gap-3 hover:cursor-pointer">
+                <div class="img">
+                    <img class="rounded-full w-12"
+                        src="https://pbs.twimg.com/profile_images/1458300009359761411/lAeL8Hvm_bigger.jpg" alt="">
+                </div>
+                <div class="name w-44">
+                    <p class="font-bold">Harsh Tripathi</p>
+                    <p class="text-gray-500 flex justify-between">@alpharsh
+                        <span class="material-symbols-outlined">more_horiz</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="second w-full border-[0.1px] border-x-gray-800 border-y-black">
+            <div class="top flex relative">
+                <div class="absolute w-14 h-1 bg-blue-600 bottom-0 left-24 rounded-lg"></div>
+                <div class="left w-1/2 flex justify-center font-bold hover:bg-gray-800 p-3">For you</div>
+                <div class="right w-1/2 flex justify-center font-bold hover:bg-gray-800 p-3 text-gray-500">Following
+                </div>
+                <div class="settings mr-4 ml-4">
+                    <span class="material-symbols-outlined p-3">settings</span>
+                </div>
+            </div>
+            <hr class="width-[0.1px] border-gray-800">
+            <div class="whatishapp flex gap-3 m-4">
+                <div class="img">
+                    <img class="rounded-full w-12"
+                        src="https://pbs.twimg.com/profile_images/1458300009359761411/lAeL8Hvm_bigger.jpg" alt="">
+                </div>
+                <input class="w-full outline-none placeholder:text-xl pt-2 bg-black text-white" type="text"
+                    placeholder="What is Happening?!">
+            </div>
+            <div class="blueicons">
+                <div class="flex justify-between items-center p-3 pt-0 pl-[4.5rem]">
+                    <div class="flex gap-3">
+                        <div class="material-symbols-outlined text-blue-500 text-xl cursor-pointer">imagesmode</div>
+                        <div class="material-symbols-outlined text-blue-500 text-xl cursor-pointer">gif_box</div>
+                        <div class="material-symbols-outlined text-blue-500 text-xl cursor-pointer">poll</div>
+                        <div class="material-symbols-outlined text-blue-500 text-xl cursor-pointer">sentiment_satisfied
+                        </div>
+                        <div class="material-symbols-outlined text-blue-500 text-xl cursor-pointer">edit_calendar</div>
+                        <div class="material-symbols-outlined text-blue-500 text-xl cursor-pointer">location_on</div>
+                    </div>
+                    <div class="tweet bg-blue-500 py-1 px-4  rounded-full hover:bg-blue-600">Post</div>
+                </div>
+            </div>
+            <hr class="width-[0.1px] border-gray-800">
+            <div class="posts">
+                <div class="post">
+                    <div class="UserId flex gap-3 mb-0 m-3">
+                        <div class="img">
+                            <img class="w-11 rounded-full"
+                                src="https://pbs.twimg.com/profile_images/1728779725588647936/8v74Hzg4_400x400.jpg"
+                                alt="">
+                        </div>
+                        <div class="acc flex gap-1">
+                            <p class="hover:underline font-bold">Kunal Kushwaha</p>
+                            <p class="text-gray-500">@kunalstwt • 5h</p>
+                        </div>
+                    </div>
+                    <div class="content m-3 pr-1 ml-[4.2rem] mt-[-1rem]">
+                        <div class="caption">
+                            <p class="break-normal">Good crowd here at the @DisruptTechMeet London meetup hosted by
+                                @CivoCloud👋</p>
+                        </div>
+                        <div class="caption-img my-2">
+                            <img class="rounded-lg"
+                                src="https://pbs.twimg.com/media/GFMgkBEWYAA-Mb-?format=jpg&name=small" alt="">
+                        </div>
+                        <div class="icons">
+                            <div class="flex gap-24">
+                                <div class="material-symbols-outlined text-gray-500 text-xl cursor-pointer">
+                                    chat_bubble_outline</div>
+                                <div class="material-symbols-outlined text-gray-500 text-xl cursor-pointer">repeat</div>
+                                <div class="material-symbols-outlined text-gray-500 text-xl cursor-pointer">
+                                    favorite_border</div>
+                                <div class="material-symbols-outlined text-gray-500 text-xl cursor-pointer">bar_chart
+                                </div>
+                                <div class="material-symbols-outlined text-gray-500 text-xl cursor-pointer">ios_share
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="width-[0.1px] border-gray-800">
+                <div class="post">
+                    <div class="UserId flex gap-3 mb-0 m-3">
+                        <div class="img">
+                            <img class="w-11 rounded-full"
+                                src="https://pbs.twimg.com/profile_images/1640177590601416704/_Gs3eest_400x400.jpg"
+                                alt="">
+                        </div>
+                        <div class="acc flex gap-1">
+                            <p class="hover:underline font-bold">Eddie Joudie</p>
+                            <p class="text-gray-500">@eddiejoudie • Feb 3</p>
+                        </div>
+                    </div>
+                    <div class="content pr-1 m-3 ml-[4.2rem] mt-[-1rem]">
+                        <div class="caption">
+                            <p class="break-normal">Working on an Open Source project you are passionate about makes it
+                                so much easier - don't jump around many projects chasing green squares</p>
+                        </div>
+                        <div class="icons">
+                            <div class="flex gap-24">
+                                <div class="material-symbols-outlined text-gray-500 text-xl cursor-pointer">
+                                    chat_bubble_outline</div>
+                                <div class="material-symbols-outlined text-gray-500 text-xl cursor-pointer">repeat</div>
+                                <div class="material-symbols-outlined text-gray-500 text-xl cursor-pointer">
+                                    favorite_border</div>
+                                <div class="material-symbols-outlined text-gray-500 text-xl cursor-pointer">bar_chart
+                                </div>
+                                <div class="material-symbols-outlined text-gray-500 text-xl cursor-pointer">ios_share
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="width-[0.1px] border-gray-800">
+                <div class="post">
+                    <div class="UserId flex gap-3 mb-0 m-3">
+                        <div class="img">
+                            <img class="w-11 rounded-full"
+                                src="https://pbs.twimg.com/profile_images/1682731537349967873/z5eukaD2_400x400.jpg"
+                                alt="">
+                        </div>
+                        <div class="acc flex gap-1">
+                            <p class="hover:underline font-bold">Just Do It</p>
+                            <p class="text-gray-500">@marketinggenes • Jan 22</p>
+                        </div>
+                    </div>
+                    <div class="content m-3 pr-1 ml-[4.2rem] mt-[-1rem]">
+                        <div class="caption">
+                            <p class="break-normal">The latest update changes the way ChatGPT collects message feedback
+                                for "thumbs down" or "bad response".</p>
+                        </div>
+                        <div class="caption-img my-2">
+                            <img class="rounded-lg"
+                                src="https://pbs.twimg.com/media/GFYiyNnbsAAlFz6?format=jpg&name=large" alt="">
+                        </div>
+                        <div class="icons">
+                            <div class="flex gap-24">
+                                <div class="material-symbols-outlined text-gray-500 text-xl cursor-pointer">
+                                    chat_bubble_outline</div>
+                                <div class="material-symbols-outlined text-gray-500 text-xl cursor-pointer">repeat</div>
+                                <div class="material-symbols-outlined text-gray-500 text-xl cursor-pointer">
+                                    favorite_border</div>
+                                <div class="material-symbols-outlined text-gray-500 text-xl cursor-pointer">bar_chart
+                                </div>
+                                <div class="material-symbols-outlined text-gray-500 text-xl cursor-pointer">ios_share
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="width-[0.1px] border-gray-800">
+            </div>
+        </div>
+
+
+        <div class="third w-full">
+            <div class="search flex relative">
+                <span
+                    class="material-symbols-outlined text-gray-500 pt-[0.8rem] text-2xl py-4 absolute left-[5.75rem] ">search</span>
+                <input type="text" class="w-3/5 py-2 ml-[5rem] rounded-full bg-[#16181c] text-white p-1 my-2 pl-12"
+                    placeholder="Search">
+            </div>
+            <div class="whats my-2 mx-[5rem] bg-[#16181c] w-3/5 rounded-xl">
+                <h1 class="text-xl font-bold mx-3 pt-2">What's Happening</h1>
+                <div class="item my-3 mb-0 p-3 hover:bg-gray-800 w-full">
+                    <div class="font-bold text-sm text-gray-500 flex justify-between">Trending in India
+                        <span class="material-symbols-outlined">
+                            more_horiz
+                        </span>
+                    </div>
+                    <div class="font-bold">#developers</div>
+                    <div class="text-sm text-gray-500 flex justify-between">34.5k Posts</div>
+                </div>
+                <div class="item mb-0 p-3 hover:bg-gray-800 w-full">
+                    <div class="font-bold text-sm text-gray-500 flex justify-between">Trending in India
+                        <span class="material-symbols-outlined">
+                            more_horiz
+                        </span>
+                    </div>
+                    <div class="font-bold">#tailwindcss</div>
+                    <div class="text-sm text-gray-500 flex justify-between">30.9k Posts</div>
+                </div>
+                <div class="item mb-0 p-3 hover:bg-gray-800 w-full">
+                    <div class="font-bold text-sm text-gray-500 flex justify-between">Business & finance
+                        <span class="material-symbols-outlined">
+                            more_horiz
+                        </span>
+                    </div>
+                    <div class="font-bold">#stockmarket</div>
+                    <div class="text-sm text-gray-500 flex justify-between">14.3k Posts</div>
+                </div>
+                <div class="item mb-0 p-3 hover:bg-gray-800 w-full">
+                    <div class="font-bold text-sm text-gray-500 flex justify-between">Trending in India
+                        <span class="material-symbols-outlined">
+                            more_horiz
+                        </span>
+                    </div>
+                    <div class="font-bold">#alpharsh</div>
+                    <div class="text-sm text-gray-500 flex justify-between">46.8k Posts</div>
+                </div>
+                <div
+                    class="item p-3 hover:cursor-pointer hover:bg-gray-800 w-full hover:rounded-bl-lg hover:rounded-br-lg">
+                    <div class="text-sm text-blue-500">Show more</div>
+                </div>
+            </div>
+            <div class="whotofoll mt-4 mx-[5rem] bg-[#16181c] w-3/5 rounded-xl">
+                <h1 class="text-xl font-bold mx-3 pt-2">Who To Follow</h1>
+                <div class="item my-3 mb-0 p-3 hover:bg-gray-800 w-full">
+                    <div class="profiles flex gap-3">
+                        <div class="img">
+                            <img class="rounded-full w-12"
+                                src="https://pbs.twimg.com/profile_images/1744299132267737088/pKks-H20_400x400.jpg"
+                                alt="">
+                        </div>
+                        <div class="name w-full">
+                            <div class="flex justify-between">
+                                <p class="font-bold flex">Rachel Conlan
+                                    <div class="follow bg-white text-black py-1 cursor-pointer px-3 rounded-full">Follow</div>  
+                                </p>
+                            </div>
+                            <p class="text-gray-500 mt-[-10px]">@RachelConlan</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item my-3 mb-0 p-3 hover:bg-gray-800 w-full">
+                    <div class="profiles flex gap-3">
+                        <div class="img">
+                            <img class="rounded-full w-12"
+                                src="https://pbs.twimg.com/profile_images/1599003507415166977/pRYwiTo3_400x400.jpg"
+                                alt="">
+                        </div>
+                        <div class="name w-full">
+                            <div class="flex justify-between">
+                                <p class="font-bold flex">Harkirat Singh
+                                    <div class="follow bg-white text-black py-1 cursor-pointer px-3 rounded-full">Follow</div>  
+                                </p>
+                            </div>
+                            <p class="text-gray-500 mt-[-10px]">@kirat_tw
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item my-3 mb-0 p-3 hover:bg-gray-800 w-full">
+                    <div class="profiles flex gap-3">
+                        <div class="img">
+                            <img class="rounded-full w-12"
+                                src="https://pbs.twimg.com/profile_images/1350045723073671169/xB1_K1_z_400x400.jpg"
+                                alt="">
+                        </div>
+                        <div class="name w-full">
+                            <div class="flex justify-between">
+                                <p class="font-bold flex">Navalism HQ   .
+                                    <div class="follow bg-white text-black py-1 cursor-pointer px-3 rounded-full">Follow</div>  
+                                </p>
+                            </div>
+                            <p class="text-gray-500 mt-[-10px]">@NavalismHQ
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="item p-3 hover:cursor-pointer hover:bg-gray-800 w-full hover:rounded-bl-lg hover:rounded-br-lg">
+                    <div class="text-sm text-blue-500">Show more</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
